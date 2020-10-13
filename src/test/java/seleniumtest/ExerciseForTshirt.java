@@ -17,7 +17,7 @@ public class ExerciseForTshirt {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "D:\\\\Users\\\\avini\\\\Documents\\\\workspace-spring-tool-suite-4-4.8.0.RELEASE\\\\seleniumtest\\\\src\\\\test\\\\resources\\\\drivers\\\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(1366, 768));
     }
